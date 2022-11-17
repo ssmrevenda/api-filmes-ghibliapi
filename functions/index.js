@@ -15,6 +15,7 @@ admin.initializeApp({
     databaseURL: "https://db-ghibli-default-rtdb.firebaseio.com"
 });
 
+console.log('asds')
 
 app.post('/', async (request, response) => {
     var funcao = request.query.funcao;
